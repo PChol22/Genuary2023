@@ -51,5 +51,7 @@ function draw() {
 	if(t < PERIOD) {
 		t+= PERIOD / 200;
 	}
-	//else { t = 0; }
+	else {
+		t = 0;
+	}
 }
